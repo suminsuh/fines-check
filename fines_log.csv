@@ -1,0 +1,59 @@
+log_id,notice_no,vehicle_no,offence_at,offence,amount,driver,status,deduction_status,handled_by,note,logged_at
+F-1400,T904860F0,GBD7374M,2026-08-27T04:52Z,Exceeding the speed limit,150.00,,Paid (To be deducted from Driver Salary),Pending,,,2026-09-14 09:21
+F-1401,H625369M1,GBP2996B,2026-09-09T05:29Z,Parking without a valid parking coupon/session,35.00,,"Paid (To be deducted from Driver Salary) ",,Wendy Chua,HDB letter,2026-09-09 05:29
+F-1402,H656339B2,GBH6838T,2026-06-12T00:05Z,Parking without a valid parking coupon/session,35.00,,"Paid (To be deducted from Driver Salary) ",Pending,Wendy Chua,HDB letter,2026-06-18 06:08
+F-1403,U292065H3,GBE1409A,2026-08-27T08:20Z,Parking in a non-designated area,70.00,,Paid (company absorb),Pending,,URA. pay by 24 Sep 2026,2026-09-03 12:31
+F-1404,H595830E4,GBJ9307R,2026-08-15T04:34Z,Parking without a valid parking coupon/session,35.00,Gary Ng,Paid (To be deducted from Driver Salary),Deducted,Wendy Chua,HDB letter,2026-09-03 05:02
+F-1405,,GBJ9307R,2026-07-10T06:05Z,Exceeding the speed limit,150.00,Gary Ng,3241287852,Waived,,TP - Clementi Ave 2,2026-07-23 09:04
+F-1406,H116676E6,GBG2113A,2026-08-04T05:12Z,Parking without a valid parking coupon/session,40.00,Darren Lim,Paid (company absorb),Waived,,HDB. pay by 1 Sep 2026,2026-08-20 06:56
+F-1407,H157218H7,GBG2113A,2026-08-04T04:52Z,Parking without a valid parking coupon/session,35.00,,Paid - deduct driver,,Raymond Lee,,2026-08-19 08:04
+F-1408,T566320F8,GBM5563D,2026-07-17T06:20Z,Exceeding the speed limit,200.00,Ahmad Rizal,Paid (company absorb),Pending,,TP. pay by 14 Aug 2026,2026-07-29 07:30
+F-1409,L303550H9,GBD7374M,2026-08-03T05:05Z,Stopping in a no-stopping zone,70.00,,PAID,Pending,,LTA letter,2026-08-20 06:17
+F-1410,L503920M0,GBK9025C,2026-07-20T04:41Z,Driving in a bus lane during operating hours,130.00,Faizal Omar,"Paid (To be deducted from Driver Salary) ",Pending,,,2026-07-27 10:26
+F-1411,H617924G1,GBK9025C,2026-07-10T01:52Z,Parking without a valid parking coupon/session,35.00,Faizal Omar,Paid - deduct driver,Pending,Raymond Lee,,2026-07-30 03:47
+F-1412,U875155B2,GBD4491E,2026-07-24T06:05Z,Parking in a non-designated area,70.00,,PAID,Pending,Wendy Chua,URA letter,2026-07-30 06:22
+F-1413,L337939F3,GBP2996B,2026-06-16T05:41Z,Stopping in a no-stopping zone,70.00,Ivan Koh,paid,Pending,,,2026-07-04 11:17
+F-1414,H996502G4,GBH6838T,2026-08-30T10:52Z,Parking at a loading bay beyond time allowed,70.00,,paid,,Wendy Chua,HDB letter,2026-08-30 10:52
+F-1415,L910055B5,GBK7656M,2026-07-29T05:20Z,Stopping in a no-stopping zone,70.00,,PAID,Pending,Wendy Chua,LTA letter,2026-08-17 06:06
+F-1416,T101999J6,GBM5563D,2026-08-12T07:52Z,Exceeding the speed limit,200.00,,"Paid (To be deducted from Driver Salary) ",Pending,Raymond Lee,,2026-08-31 12:44
+F-1417,H347268M7,GBK7656M,2026-06-09T07:05Z,Parking without a valid parking coupon/session,40.00,,Paid (To be deducted from Driver Salary),,,HDB letter,2026-06-22 07:54
+F-1418,L595500H8,GBG2113A,2026-08-07T05:12Z,Driving in a bus lane during operating hours,130.00,,Paid - deduct driver,,,LTA letter,2026-08-26 05:14
+F-1419,U589550H9,GBG2113A,2026-07-01T06:05Z,Parking in a non-designated area,70.00,,PAID,Pending,,URA - Blk 412 Tampines St 41,2026-07-18 09:32
+F-1420,T898496C0,GBP2996B,2026-07-29T03:34Z,Exceeding the speed limit,200.00,Kumar R,PAID,Pending,,,2026-08-08 03:41
+F-1421,,GBM5563D,2026-07-29T09:18Z,Parking in a non-designated area,70.00,Ahmad Rizal,Paid (company absorb),Pending,,URA letter,2026-07-29 09:18
+F-1422,L327343G2,GBE1409A,2026-07-23T05:34Z,Driving in a bus lane during operating hours,130.00,,paid,Pending,,,2026-08-02 11:25
+F-1423,L126929N3,GBD7374M,2026-07-10T04:05Z,Stopping in a no-stopping zone,70.00,Ivan Koh,PAID,Deducted,,LTA - Blk 88 Bedok North Rd,2026-07-28 05:09
+F-1424,L232071N4,GBM5563D,2026-08-25T03:12Z,Driving in a bus lane during operating hours,130.00,,Paid (To be deducted from Driver Salary),,,,2026-09-10 06:01
+F-1425,H479512G5,GBD7374M,2026-06-24T03:05Z,Parking without a valid parking coupon/session,35.00,,Paid (company absorb),,,,2026-07-08 04:53
+F-1426,H812268K6,GBH6838T,2026-07-28T03:12Z,Parking at a loading bay beyond time allowed,40.00,,Paid (company absorb),,,HDB - Upper Thomson Rd,2026-08-10 07:16
+F-1427,T613217G7,GBD7374M,2026-06-18T09:34Z,Exceeding the speed limit,150.00,Ivan Koh,paid,Pending,,TP. pay by 16 Jul 2026,2026-07-02 10:30
+F-1428,,GBP8989P,2026-06-10T08:34Z,Exceeding the speed limit,200.00,Jun Wei Ong,PAID,Pending,Raymond Lee,,2026-06-18 12:52
+F-1429,U595917B9,GBP2996B,2026-07-10T13:54Z,Parking in a non-designated area,70.00,,PAID,,,URA letter,2026-07-10 13:54
+F-1430,H734082E0,GBK7656M,2026-06-02T04:41Z,Parking without a valid parking coupon/session,35.00,Jun Wei Ong,Paid (To be deducted from Driver Salary),Waived,,,2026-06-10 08:10
+F-1431,U635149B1,GBK9025C,2026-07-24T04:34Z,Parking in a non-designated area,70.00,,Paid (company absorb),Pending,,,2026-07-30 07:46
+F-1432,H964256J2,GBG2113A,2026-07-18T02:05Z,Parking at a loading bay beyond time allowed,70.00,Darren Lim,paid,Pending,,paid online 28 Sep 2026,2026-07-26 02:09
+F-1433,L779650D3,GBK7656M,2026-07-04T09:41Z,Driving in a bus lane during operating hours,130.00,Hafiz Salleh,paid,Waived,,paid online 28 Sep 2026,2026-07-19 16:07
+F-1434,L296268D4,GBG2113A,2026-08-24T09:25Z,Driving in a bus lane during operating hours,130.00,,Pending payment,,,LTA. pay by 21 Sep 2026,2026-09-02 14:23
+F-1435,H562282M5,GBG2113A,2026-08-19T04:25Z,Parking without a valid parking coupon/session,35.00,,Pending payment,,,HDB letter,2026-08-27 07:23
+F-1436,,GBD4491E,2026-08-20T00:25Z,Stopping in a no-stopping zone,70.00,,unpaid,,,LTA letter,2026-09-02 03:09
+F-1437,U797768M7,GBK9025C,2026-08-15T02:25Z,Parking in a non-designated area,70.00,,Unpaid,,,,2026-08-27 08:47
+F-1438,H631210B8,GBH6838T,2026-08-29T05:25Z,Parking without a valid parking coupon/session,40.00,,Pending payment,,,HDB. pay by 26 Sep 2026,2026-09-17 11:05
+F-1439,H538841J9,GBE1409A,2026-08-06T00:25Z,Parking at a loading bay beyond time allowed,70.00,,Unpaid,,,,2026-08-24 06:04
+F-1440,L301045H0,GBK9025C,2026-07-11T01:25Z,Driving in a bus lane during operating hours,130.00,,Pending payment,,,,2026-07-28 01:51
+F-1441,L429620J1,GBK7656M,2026-07-29T06:25Z,Stopping in a no-stopping zone,70.00,,Unpaid,,,LTA letter,2026-08-13 12:44
+F-1442,H588377H2,GBD7374M,2026-07-21T02:10Z,Parking at a loading bay beyond time allowed,40.00,,Pending payment,,,HDB letter,2026-07-29 03:55
+F-1443,H659215M3,GBK9025C,2026-07-13T06:16Z,Parking at a loading bay beyond time allowed,40.00,,Unpaid,,,HDB. pay by 30 Jul 2026,2026-07-13 06:16
+F-1444,H949710E4,GBP2996B,2026-07-28T08:10Z,Parking at a loading bay beyond time allowed,70.00,,Pending payment,,,,2026-08-04 14:00
+F-1445,H911353G5,GBK9025C,2026-08-12T02:10Z,Parking at a loading bay beyond time allowed,40.00,,Unpaid,,,HDB - PIE (Changi),2026-08-22 06:02
+F-1446,H844803B6,GBK7656M,2026-08-31T06:00Z,Parking without a valid parking coupon/session,40.00,,Appealed,,,HDB appeal sent 12 Sep 2026,2026-09-07 06:49
+F-1447,L430612K7,GBP8989P,2026-08-13T06:00Z,Driving in a bus lane during operating hours,130.00,,Appealed,,,LTA appeal sent 25 Aug 2026,2026-08-22 09:31
+F-1448,H657135D8,GBP8989P,2026-08-27T03:30Z,Parking without a valid parking coupon/session,35.00,Jun Wei Ong,"Paid (To be deducted from Driver Salary) ",Waived,Wendy Chua,HDB - Blk 17 Toa Payoh Lor 7; paid online 28 Sep 2026,2026-09-04 05:33
+F-1449,L147054J4,GBG2113A,2026-09-07T22:40Z,Driving in a bus lane during operating hours,130.00,,unpaid,,,LTA - Blk 412 Tampines St 41,2026-09-16 02:39
+F-1450,T753979A5,GBD7374M,2026-09-02T08:01Z,Exceeding the speed limit,165.00,,Unpaid,,,reminder?,2026-09-02 08:01
+F-1451,L811781J6,GBD4491E,2026-06-18T02:00Z,Late furnishing of driver particulars,,,Paid (company absorb),,,did not reply to request for driver details in time,2026-07-20 02:11
+F-1452,H663446N8,GBJ9307R,2026-09-16T09:27Z,Parking at a loading bay beyond time allowed,40.00,,Unpaid,,,HDB letter,2026-09-27 15:28
+F-1453,H465630D7,GBK7656M,2026-09-14T06:03Z,Parking without a valid parking coupon/session,35.00,,Unpaid,,,,2026-09-23 08:16
+F-1454,H719569F9,GBC7735C,2026-09-15T00:58Z,Parking without a valid parking coupon/session,40.00,,Unpaid,,,,2026-10-02 04:54
+F-1455,H985071D0,GBK9025C,2026-09-09T05:03Z,Parking at a loading bay beyond time allowed,40.00,,Unpaid,,,HDB letter,2026-09-27 09:49
+F-1456,H113410B4,GBH6838T,2026-09-20T05:20Z,Parking at a loading bay beyond time allowed,70.00,,Unpaid,,,,2026-09-20 05:20
+F-1457,L609436A9,GBJ9307R,2026-09-21T02:58Z,Driving in a bus lane during operating hours,130.00,,Unpaid,,,LTA - Blk 17 Toa Payoh Lor 7,2026-10-06 06:50

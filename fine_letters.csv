@@ -1,0 +1,56 @@
+letter_id,letter_type,agency,notice_no,vehicle_no,offence_date,offence_time,offence,location,amount,pay_by,message,addressed_to,received_on
+SCAN-001,Request for driver particulars,LTA,L433452J5-R,GBD 7374 M,8 Sep 2026,8.44am,Stopping in a no-stopping zone,Blk 412 Tampines St 41,,15 Oct 2026,Furnish the particulars of the driver within 14 days. Failure to do so is an offence.,Northwind Home Electronics Pte Ltd,2026-09-17
+SCAN-002,Notice,HDB,H113410B4,GBH6838T,2026-09-09,11.27am,Parking at a loading bay beyond time allowed,Blk 88 Bedok North Rd,$70.00,1 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-17
+SCAN-003,REMINDER NOTICE,LTA,L520164H8,gbd 4491 e,20 Aug 2026,08:25,Stopping in a no-stopping zone,Upper Thomson Rd,$85.00,12 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-14
+SCAN-004,NOTICE OF OFFENCE,URA,U916472B7,GBP2996B,09/09/2026,12.50pm,Parking in a non-designated area,Upper Thomson Rd,$70.00,16 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-18
+SCAN-005,Notice,LTA,L559539K0,gbg2113a,23/09/2026,5.27pm,Stopping in a no-stopping zone,Woodlands Ave 6,70,29 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-10-01
+SCAN-006,REMINDER NOTICE,HDB,H280915H7,gbg 2113 a,2026-08-19,12:25,Parking without a valid parking coupon/session,Blk 88 Bedok North Rd,S$50.00,8 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-24
+SCAN-007,Notice,LTA,L980532N2,GBH 6838 T,22/09/2026,0918,Driving in a bus lane during operating hours,Blk 412 Tampines St 41,$130.00,31 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-10-03
+SCAN-008,Notice,URA,U744397G8,GBP 2996 B,17/09/2026,5.03pm,Parking in a non-designated area,Blk 17 Toa Payoh Lor 7,S$70.00,27 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-29
+SCAN-009,NOTICE OF OFFENCE,HDB,H719569F9,GBC7735C,2026-09-15,08:58,Parking without a valid parking coupon/session,PIE (Changi),$40.00,9 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-25
+SCAN-010,Notice,TP,T351875E1,GBP8989P,1 Sep 2026,09:36,Exceeding the speed limit,Upper Thomson Rd,S$150.00,11 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-13
+SCAN-011,Notice,URA,U640381D2,gbp2996b,10/09/2026,21:05,Parking in a non-designated area,Jurong West Ave 1,$70.00,15 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-17
+SCAN-012,NOTICE OF OFFENCE,TP,T258754J4,gbp 8989 p,11 Sep 2026,15:58,Exceeding the speed limit,Blk 230 Sengkang East Way,150,18 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-20
+SCAN-013,Notice,LTA,L609436A9,GBJ 9307 R,21/09/2026,1058,Driving in a bus lane during operating hours,Blk 17 Toa Payoh Lor 7,130,30 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-10-02
+SCAN-014,Notice,HDB,H985071D0,GBK9025C,2026-09-09,1303,Parking at a loading bay beyond time allowed,PIE (Changi),40,4 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-20
+SCAN-015,Notice,TP,T384058A1,GBC 7735 C,03/09/2026,16:15,Exceeding the speed limit,Blk 88 Bedok North Rd,S$150.00,11 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-13
+SCAN-016,NOTICE OF OFFENCE,HDB,H487724N8,GBG2113A,2026-09-15,9.03am,Parking at a loading bay beyond time allowed,Woodlands Ave 6,S$40.00,5 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-21
+SCAN-017,REMINDER NOTICE,HDB,H416096E0,GBE1409A,2026-08-06,0825,Parking at a loading bay beyond time allowed,Ang Mo Kio Ave 3,S$85.00,7 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-23
+SCAN-018,NOTICE OF OFFENCE,TP,T355317H4,GBP2996B,15/09/2026,14:27,Exceeding the speed limit,Woodlands Ave 6,S$200.00,25 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-27
+SCAN-019,NOTICE OF OFFENCE,LTA,L829645J3,gbp8989p,10/09/2026,12:58,Stopping in a no-stopping zone,Blk 88 Bedok North Rd,70,14 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-16
+SCAN-020,Final Notice,HDB,H602558F2,GBD7374M,2026-07-13,16:33,Parking without a valid parking coupon/session,Jurong West Ave 1,65,3 Oct 2026,"Final notice. If unpaid by the date above, a court summons will be issued.",Northwind Home Electronics Pte Ltd,2026-09-19
+SCAN-021,NOTICE OF OFFENCE,URA,U648833J3,gbd 4491 e,16 Sep 2026,2040,Parking in a non-designated area,Blk 88 Bedok North Rd,S$70.00,21 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-23
+SCAN-022,Notice,LTA,L461868K1,GBC 7735 C,08/09/2026,1103,Stopping in a no-stopping zone,Blk 230 Sengkang East Way,S$70.00,14 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-16
+SCAN-023,Notice,TP,T192473B0,GBK7656M,24/09/2026,11.36am,Exceeding the speed limit,Blk 17 Toa Payoh Lor 7,$200.00,29 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-10-01
+SCAN-024,NOTICE OF OFFENCE,LTA,L187992C0,GBC 7735 C,02/09/2026,1.15pm,Stopping in a no-stopping zone,Upper Thomson Rd,70,8 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-10
+SCAN-025,NOTICE OF OFFENCE,HDB,H631210B8,GBH6838T,2026-08-29,1325,Parking without a valid parking coupon/session,Upper Thomson Rd,S$40.00,28 Sep 2026,,Northwind Home Electronics Pte Ltd,2026-09-14
+SCAN-026,NOTICE OF OFFENCE,LTA,L775950K7,GBK9325C,18/09/2026,15:05,Driving in a bus lane during operating hours,Clementi Ave 2,S$130.00,24 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-26
+SCAN-027,Notice,TP,T192473B0,GBK7656M,24/09/2026,11.36am,Exceeding the speed limit,Blk 17 Toa Payoh Lor 7,$200.00,29 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-10-01
+SCAN-028,NOTICE OF OFFENCE,HDB,H980644N6,GBJ 9307 R,2026-09-11,1027,Parking at a loading bay beyond time allowed,Clementi Ave 2,70,3 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-19
+SCAN-029,NOTICE OF OFFENCE,LTA,L758478K6,gbd 4491 e,5 Sep 2026,12:50,Driving in a bus lane during operating hours,Blk 88 Bedok North Rd,$130.00,14 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-16
+SCAN-030,Reminder,URA,U236025F1,GBK 7656 M,5 Aug 2026,11.07am,Parking in a non-designated area,Woodlands Ave 6,S$85.00,10 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-12
+SCAN-031,Final Notice,URA,U379912C4,gbe 1409 a,20/07/2026,12.33pm,Parking in a non-designated area,PIE (Changi),S$100.00,17 Oct 2026,"Final notice. If unpaid by the date above, a court summons will be issued.",Northwind Home Electronics Pte Ltd,2026-09-19
+SCAN-032,NOTICE OF OFFENCE,LTA,L639348C5,GBC7735C,07/09/2026,5.44pm,Stopping in a no-stopping zone,Blk 88 Bedok North Rd,70,16 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-18
+SCAN-033,Notice,LTA,L858934H3,GBD7374M,15/09/2026,3.18pm,Driving in a bus lane during operating hours,Clementi Ave 2,S$130.00,20 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-22
+SCAN-034,Notice,HDB,H713538D7,gbk 7656 m,2026-09-16,12:03,Parking without a valid parking coupon/session,Upper Thomson Rd,40,12 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-28
+SCAN-035,Reminder,HDB,H233351A5,GBG2113A,2026-07-24,17:33,Parking at a loading bay beyond time allowed,Woodlands Ave 6,$55.00,30 Sep 2026,,Northwind Home Electronics Pte Ltd,2026-09-16
+SCAN-036,REMINDER NOTICE,URA,U530467G9,GBK9025C,15 Aug 2026,10.25am,Parking in a non-designated area,PIE (Changi),S$85.00,10 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-12
+SCAN-037,NOTICE OF OFFENCE,HDB,H465630D7,gbk7656m,2026-09-14,14:03,Parking without a valid parking coupon/session,Blk 88 Bedok North Rd,35,6 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-22
+SCAN-038,NOTICE OF OFFENCE,HDB,H624917E6,GBD4791E,2026-09-15,11:20,Parking at a loading bay beyond time allowed,Jurong West Ave 1,S$70.00,8 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-24
+SCAN-039,Notice,TP,T967573G2,gbj9307r,15/09/2026,1218,Exceeding the speed limit,Blk 88 Bedok North Rd,S$200.00,20 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-22
+SCAN-040,Notice,URA,U189469C9,gbe 1409 a,03/09/2026,11.30am,Parking in a non-designated area,Jurong West Ave 1,S$70.00,10 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-12
+SCAN-041,Notice,LTA,L433452J5,GBD7374M,08/09/2026,8.44am,Stopping in a no-stopping zone,Blk 412 Tampines St 41,S$70.00,18 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-20
+SCAN-042,NOTICE OF OFFENCE,LTA,L960338N9,GBD7374M,16 Sep 2026,10.27am,Stopping in a no-stopping zone,Clementi Ave 2,$70.00,26 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-28
+SCAN-043,Notice,HDB,H672768F5,gbc7735c,2026-09-21,16:03,Parking at a loading bay beyond time allowed,Blk 230 Sengkang East Way,$70.00,14 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-30
+SCAN-044,NOTICE OF OFFENCE,LTA,L296268D4,GBG2113A,24/08/2026,1725,Driving in a bus lane during operating hours,Blk 88 Bedok North Rd,130,23 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-25
+SCAN-045,Reminder,HDB,H414330E3,GBD7374M,2026-08-08,10:33,Parking at a loading bay beyond time allowed,Clementi Ave 2,85,4 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-20
+SCAN-046,NOTICE OF OFFENCE,HDB,H224460B3,gbd4491e,2026-09-17,1727,Parking without a valid parking coupon/session,Upper Thomson Rd,$35.00,11 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-27
+SCAN-047,Request for driver particulars,TP,T384058A1-R,gbc 7735 c,03/09/2026,4.15pm,Exceeding the speed limit,Blk 88 Bedok North Rd,,10 Oct 2026,Furnish the particulars of the driver within 14 days. Failure to do so is an offence.,Northwind Home Electronics Pte Ltd,2026-09-12
+SCAN-048,NOTICE OF OFFENCE,TP,T945606N1,gbp 8989 p,04/09/2026,0918,Exceeding the speed limit,Ang Mo Kio Ave 3,S$200.00,9 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-11
+SCAN-049,Notice,HDB,H663446N8,gbj 9307 r,2026-09-16,17:27,Parking at a loading bay beyond time allowed,Upper Thomson Rd,$40.00,6 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-22
+SCAN-050,Notice,LTA,L433452J5,GBD7374M,08/09/2026,8.44am,Stopping in a no-stopping zone,Blk 412 Tampines St 41,S$70.00,18 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-20
+SCAN-051,NOTICE OF OFFENCE,LTA,L294073C7,GBP 2996 B,12/09/2026,3.44pm,Stopping in a no-stopping zone,Woodlands Ave 6,$70.00,18 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-20
+SCAN-052,Notice,HDB,H197281D2,gbe 1409 a,2026-09-01,1744,Parking at a loading bay beyond time allowed,Upper Thomson Rd,S$70.00,27 Sep 2026,,Northwind Home Electronics Pte Ltd,2026-09-13
+SCAN-053,NOTICE OF OFFENCE,HDB,H133886H6,gbj9307r,2026-09-05,11.18am,Parking at a loading bay beyond time allowed,Blk 230 Sengkang East Way,$70.00,1 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-17
+SCAN-054,Notice,HDB,H136006N8,SMK4471T,2026-09-09,13:45,Parking at a loading bay beyond time allowed,Blk 230 Sengkang East Way,S$40.00,3 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-19
+SCAN-055,Notice,LTA,L584062N6,gbd4491e,22/09/2026,16:03,Stopping in a no-stopping zone,Blk 17 Toa Payoh Lor 7,S$70.00,28 Oct 2026,,Northwind Home Electronics Pte Ltd,2026-09-30

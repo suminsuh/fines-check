@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fines check</title>
+<style>
+  :root {
+    --ink: #1d2329; --muted: #5d6b78; --line: #dde3e8; --bg: #f6f8fa; --card: #fff;
+    --red: #b42318; --red-bg: #fef3f2; --amber: #b54708; --amber-bg: #fffaeb;
+    --green: #067647; --green-bg: #ecfdf3; --blue: #1d4ed8; --blue-bg: #eff4ff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.45 "Segoe UI", system-ui, -apple-system, sans-serif; color: var(--ink); background: var(--bg); }
+  header { background: #12263a; color: #fff; padding: 18px 28px; }
+  header h1 { margin: 0; font-size: 22px; font-weight: 600; }
+  header p { margin: 4px 0 0; color: #c7d2dd; font-size: 14px; }
+  main { max-width: 1180px; margin: 0 auto; padding: 20px 24px 60px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 18px 20px; margin-bottom: 18px; }
+  h2 { font-size: 18px; margin: 0 0 4px; }
+  h2 .n { display: inline-block; width: 26px; height: 26px; line-height: 26px; text-align: center; border-radius: 50%; background: #12263a; color: #fff; font-size: 14px; margin-right: 8px; }
+  .lead { color: var(--muted); margin: 0 0 14px; }
+  #drop { border: 2px dashed #9fb0c0; border-radius: 8px; padding: 26px; text-align: center; cursor: pointer; background: #fbfcfd; }
+  #drop.over { border-color: var(--blue); background: var(--blue-bg); }
+  #drop strong { font-size: 16px; }
+  .files { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 4px; }
+  .chip { border: 1px solid var(--line); border-radius: 16px; padding: 4px 12px; font-size: 13px; background: #fff; }
+  .chip.ok { border-color: #a6e3c3; background: var(--green-bg); color: var(--green); }
+  .chip.miss { border-color: #fecdca; background: var(--red-bg); color: var(--red); }
+  .controls { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-top: 12px; }
+  label { font-weight: 600; }
+  input[type=date], input[type=search] { font: inherit; padding: 5px 8px; border: 1px solid #b8c4cf; border-radius: 6px; }
+  button, .btn { font: inherit; padding: 7px 14px; border-radius: 6px; border: 1px solid #12263a; background: #12263a; color: #fff; cursor: pointer; }
+  button.ghost { background: #fff; color: #12263a; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .card { border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  .card .big { font-size: 26px; font-weight: 700; }
+  .card .sub { color: var(--muted); font-size: 13px; }
+  .card.red { border-color: #fecdca; background: var(--red-bg); }
+  .card.red .big { color: var(--red); }
+  .card.amber { border-color: #fedf89; background: var(--amber-bg); }
+  .checks { margin: 0; padding: 0; list-style: none; }
+  .checks li { padding: 3px 0; }
+  .checks .ok::before { content: "\2713  "; color: var(--green); font-weight: 700; }
+  .checks .bad { color: var(--red); font-weight: 600; }
+  .checks .bad::before { content: "\2717  "; }
+  .banner { padding: 10px 14px; border-radius: 6px; margin-bottom: 12px; font-weight: 600; }
+  .banner.ok { background: var(--green-bg); color: var(--green); }
+  .banner.bad { background: var(--red-bg); color: var(--red); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #f1f4f7; font-weight: 600; position: sticky; top: 0; }
+  td.num, th.num { text-align: right; white-space: nowrap; }
+  .tag { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; white-space: nowrap; }
+  .p1, .p2 { background: var(--red-bg); color: var(--red); }
+  .p3, .p4 { background: var(--amber-bg); color: var(--amber); }
+  .p5 { background: var(--blue-bg); color: var(--blue); }
+  .late { color: var(--red); font-weight: 600; white-space: nowrap; }
+  .soon { color: var(--amber); font-weight: 600; white-space: nowrap; }
+  .muted { color: var(--muted); }
+  .flags { margin: 0; padding-left: 18px; }
+  .flags li { margin: 2px 0; }
+  .downloads { display: flex; flex-wrap: wrap; gap: 10px; }
+  details summary { cursor: pointer; color: var(--blue); margin: 8px 0; }
+  a { color: var(--blue); white-space: nowrap; }
+  #cases td:first-child { white-space: nowrap; }
+  tr.hl td { background: #fff7cc; }
+  .scroll { max-height: 560px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+  .hidden { display: none; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 800px) { .two { grid-template-columns: 1fr; } }
+  @media print {
+    header, #load, .downloads, .noprint { display: none !important; }
+    body { background: #fff; }
+    section { border: none; padding: 0; page-break-inside: avoid; }
+    .scroll { max-height: none; overflow: visible; border: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Fines check</h1>
+  <p>Matches this week's fine letters to the fines log and the authorities' portal, so you can see what we owe, what is heading to court, and what each driver owes us.</p>
+</header>
+<main>
+  <section id="load">
+    <h2><span class="n">1</span>Load the files</h2>
+    <p class="lead">Drop all five CSV files here at once: the letters, the fines log (or last week's <em>new fines log</em> from this page), the portal export, vehicles and the roster. File names don't matter.</p>
+    <div id="drop" tabindex="0">
+      <strong>Drop files here</strong><br>
+      <span class="muted">or click to choose them</span>
+      <input id="picker" type="file" accept=".csv,text/csv" multiple class="hidden">
+    </div>
+    <div class="files" id="chips"></div>
+    <div class="controls">
+      <label for="today">Report date</label>
+      <input type="date" id="today">
+      <span class="muted">Use the day you downloaded the portal export.</span>
+      <span style="flex:1"></span>
+      <button class="ghost" id="sample">Try it with the sample data</button>
+    </div>
+  </section>
+
+  <div id="results" class="hidden">
+    <section>
+      <div id="banner"></div>
+      <div class="cards" id="cards"></div>
+      <details class="noprint"><summary>How the tool checked itself</summary><ul class="checks" id="checks"></ul></details>
+      <div id="problems"></div>
+    </section>
+
+    <section>
+      <h2><span class="n">2</span>Do this first</h2>
+      <p class="lead">Most urgent at the top. Requests to name a driver come first: not replying is an offence on its own, separate from the fine.</p>
+      <div class="scroll"><table id="actions"></table></div>
+    </section>
+
+    <section>
+      <h2><span class="n">3</span>This week's letters</h2>
+      <p class="lead">What each letter turned out to be. Only "New fine" letters are new; the rest belong to fines we already had.</p>
+      <div id="letterSummary"></div>
+      <details><summary>Show every letter</summary><div class="scroll"><table id="letters"></table></div></details>
+    </section>
+
+    <section>
+      <h2><span class="n">4</span>Needs your decision</h2>
+      <p class="lead">The tool will not guess on these. Nobody is charged for a fine in this list until you decide. To settle one, edit that row in the new fines log (see the guide) and load it next week.</p>
+      <div class="scroll"><table id="review"></table></div>
+    </section>
+
+    <section>
+      <h2><span class="n">5</span>Recovery from drivers</h2>
+      <p class="lead">Drivers pay the original fine only. Late charges are the company's, because they come from our delay, not from the driving. Deductions are only listed once we have paid the fine.</p>
+      <div class="cards" id="recoveryCards"></div>
+      <div class="scroll" style="margin-top:12px"><table id="drivers"></table></div>
+    </section>
+
+    <section>
+      <h2><span class="n">6</span>All fines</h2>
+      <p class="lead">One row per offence. All the letters and notice numbers for the same offence are grouped here.</p>
+      <div class="controls noprint" style="margin:0 0 10px"><input type="search" id="filter" placeholder="Filter: van, notice no, driver, F-number..." size="40"></div>
+      <div class="scroll"><table id="cases"></table></div>
+    </section>
+
+    <section class="noprint">
+      <h2><span class="n">7</span>Download</h2>
+      <p class="lead">Save the <strong>new fines log</strong> and use it as next week's log. It has your old columns plus a few new ones. For finance, send the payroll list. To print this report, press Ctrl+P.</p>
+      <div class="downloads">
+        <button id="dlRegister">New fines log (CSV)</button>
+        <button id="dlPayroll" class="ghost">Payroll deduction list (CSV)</button>
+        <button id="dlActions" class="ghost">Action list (CSV)</button>
+      </div>
+    </section>
+  </div>
+</main>
+<script src="fines-core.js"></script>
+<script src="sample-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
